@@ -14,7 +14,7 @@ const router = Router();
 
 /**
  * Handles GET requests for application info.
- * Merges package and runtime information and responds with it.
+ * Merges package and runtime information and responds.
  */
 router.get("/info", (_req, res) => {
   try {
